@@ -36,7 +36,7 @@ jobs:
         if: ${{ !inputs.pass_unit_tests }}
         run: exit 1 
   deploy:
-     run-on: ubuntu-latest
+     runs-on: ubuntu-latest
      steps: 
        - name: Run a deploy 
          run: echo "deploy successfully done"
