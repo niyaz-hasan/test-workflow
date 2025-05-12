@@ -33,7 +33,7 @@ jobs:
        - name: Run a test script 
          run: echo "test is completed" 
        - name: Failing test 
-         if {{ !inputs.pass_unit_tests }}
+         if: {{ !inputs.pass_unit_tests }}
          run: exit 1 
   deploy:
      run-on: ubuntu-latest
