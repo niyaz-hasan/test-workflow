@@ -28,7 +28,7 @@ jobs:
         run: echo Hello, world!
 
   test: 
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Run a test script 
         run: echo "test is completed" 
