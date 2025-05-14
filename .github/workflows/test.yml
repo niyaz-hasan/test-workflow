@@ -8,9 +8,9 @@ on:
   workflow_dispatch:
     inputs:
       pass-unit-tests:
-        type: string
+        type: boolean
         description: Whether unit tests will pass or not
-        default: false
+        default: true
 
 
 
