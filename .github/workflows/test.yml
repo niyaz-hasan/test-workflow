@@ -11,7 +11,7 @@ on:
     #    type: boolean
     #    description: Whether unit tests will pass or not
     #    default: true
-      pass_unit_tests
+      pass_unit_tests:
         type: string
         description: Enter the result of unit tests
         default: "pass"
