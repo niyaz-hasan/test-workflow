@@ -7,14 +7,11 @@ name: 10 - Controlling the Execution Flow
 on:
   workflow_dispatch:
     inputs:
-    #  pass-unit-tests:
-    #    type: boolean
-    #    description: Whether unit tests will pass or not
-    #    default: true
-      pass_unit_tests:
+      pass-unit-tests:
         type: string
-        description: Enter the result of unit tests
-        default: "pass"
+        description: Whether unit tests will pass or not
+        default: false
+
 
 
 jobs:
